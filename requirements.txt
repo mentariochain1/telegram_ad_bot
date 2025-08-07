@@ -1,0 +1,15 @@
+# Core dependencies
+aiogram==3.4.1
+aiosqlite==0.19.0
+sqlalchemy==2.0.25
+python-dotenv==1.0.0
+
+# Development dependencies
+pytest==7.4.4
+pytest-asyncio==0.23.2
+black==23.12.1
+flake8==7.0.0
+mypy==1.8.0
+
+# Optional dependencies for production
+uvloop==0.19.0  # For better async performance on Unix systems
